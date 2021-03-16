@@ -22,22 +22,21 @@ body{
 header{
     background-color: white;
     height: 100px;
+}
+.logo{
+    height: 100px;
     line-height: 100px;
     vertical-align: middle;
 }
-.inlineblock{
-    display: inline-block;
-}
-.titolo{
-    /* line-height: 50px; */
-    /* height:50px; */
-    /* vertical-align: middle; */
-    font-family: Arial, Helvetica, sans-serif;
+.logo_text{
     font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
 }
 /* /header */
 
 /* main */
+
 main{
     background-color: white;
     margin: auto;
@@ -48,6 +47,8 @@ main{
     padding-bottom: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* due bottoni in alto */
 #addtask{
     margin-right: 10px;
     padding: 10px;
@@ -65,12 +66,18 @@ main{
     padding-bottom: 20px;
     border-bottom: 3px solid rgb(250, 243, 243);
 }
+/* /due bottoni in alto */
+
+/* padding e freccetta in giù */
 .pt2{
     padding-top: 25px;
 }
 h3::before{
     content: "\0025BE";
 }
+/* /padding e freccetta in giù */
+
+/* check e cross cerchiate */
 .cerchiov{
     border: 1px solid green;
     color: green;
@@ -95,6 +102,9 @@ h3::before{
 .cerchiox::before{
     content: "\2717";
 }
+/* /check e cross cerchiate */
+
+/* margin e padding dei div nel main */
 main>div>div{
     margin-top: 20px;
     font-weight: 530;
@@ -102,8 +112,9 @@ main>div>div{
 main>div{
     padding-left: 40px;
 }
+/* /margin e padding dei div nel main */
 
-/* bottoni */
+/* bottoni vari colorati*/
 .editorial{
     background-color: rgb(78, 164, 235);
     padding-top: 5px;
@@ -182,6 +193,6 @@ main>div{
     content: "Sales";
     font-size: 12px;
 }
-/* /bottoni */
+/* /bottoni vari colorati*/
 
 /* /main */
