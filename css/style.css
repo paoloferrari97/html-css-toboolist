@@ -65,6 +65,109 @@ main{
     padding-top: 25px;
 }
 h3::before{
-    content: "&#x25BE;";
+    content: "\0025BE";
 }
+.cerchiov{
+    border: 1px solid green;
+    color: green;
+    border-radius: 50%;
+    padding: 2px;
+}
+.cerchiov::before{
+    content: "\002713";
+}
+.cerchiox{
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
+    padding: 2px;
+}
+.cerchiox::before{
+    content: "\002573";
+}
+
+/* bottoni */
+.editorial{
+    background-color: rgb(78, 164, 235);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.editorial::before{
+    content: "Editorial";
+    font-size: 12px;
+}
+main>div>div{
+    margin-top: 20px;
+}
+.q1goals{
+    background-color: rgb(133, 32, 158);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.q1goals::before{
+    content: "Q1 Goals";
+    font-size: 12px;
+}
+.recruiting{
+    background-color: rgb(12, 247, 102);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.recruiting::before{
+    content: "Recruiting";
+    font-size: 12px;
+}
+.mobile{
+    background-color: rgb(247, 165, 12);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.mobile::before{
+    content: "Mobile";
+    font-size: 12px;
+}
+.website{
+    background-color: rgb(247, 12, 102);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.website::before{
+    content: "Web Site";
+    font-size: 12px;
+}
+.sales{
+    background-color: rgb(118, 247, 12);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.sales::before{
+    content: "Sales";
+    font-size: 12px;
+}
+/* /bottoni */
+
 /* /main */
